@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background: #bdc3c7;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.App {
+  text-align: center;
+  width: 600px;
+  margin: 10px auto;
+}
+
+.signINForm {
+  display: inline-block;
+}
+.signINForm label {
+  display:inline-block;
+  width: 150px;
+}
+.signINForm div {
+  margin: 10px;
+}
+.signUpDiv,.signInDiv,.dashboardDiv,.tasksDiv,.leavesDiv,.editProfileDiv,.pageNotFoundDiv {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  box-shadow: 15px 15px 15px #2c3e50;
+  padding: 20px;
+  color: white;
+}
+.signInDiv{
+width: 500px;
+padding: 10px;
+margin: 50px auto;
+border-left: 15px solid #2c3e50;
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+color: black;
+font-weight: 800;
+
+}
+.signINImageLogo {
+  width: 35%;
+  margin: 20px 0px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.active  {
+  background-color: #2c3e50;
+  padding: 15px;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+input[type=text],input[type=number],input[type=datetime-local],input[type=email],input[type=password], select {
+ width: 250px;
+  height: 25px;
+ border-radius: 25px;
+ padding-left: 10px;
+ border: 0px;
+}
+
+.forgotPasswordDiv {
+  text-align: right;
+  font-size: 0.8rem;
+}
+placeholder {
+  font-size: 0.5rem;
+}
+/* Signup form CSS STARTS */
+.signupFormheading {
+  color: #2c3e50;
+  border-left: 5px solid #bdc3c7;
+  padding-left: 10px;
+}
+.signUpDiv{
+  width: 950px;
+  padding: 20px;
+  margin: 50px auto;
+  border-left: 15px solid #2c3e50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  box-sizing: border-box;
+  }
+.signUPForm {
+  display: inline-block;
+  color: black;
+  text-align: left;
+
+}
+.signUPForm label{
+  display: inline-block;
+  width: 200px;
+  font-weight: 600;
+}
+.signUPForm div{
+  margin: 10px;
+}
+.fullName {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fullName input {
+  margin-right: 15px;
+}
+.signUPINBTN {
+  text-align: center;
+}
+/* select,option {
+  width: 170px;
+} */
+.signUPBTN, .signINBTN {
+  width: 100px;
+  padding: 15px;
+  border-radius: 25px;
+  border: 0px;
+  margin: 10px;
+  background-color: #2c3e50;
+  color: #bdc3c7;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.signUPBTN:hover, .signINBTN:hover {
+  background-color: #bdc3c7;
+  color: black;
+}
+
+
+/* Signup form CSS ENDS */
+
+.dashboardDiv {
+  width: 900px;
+}
+.tasksDiv {
+  width: 900px;
+}
+.leavesDiv {
+  width: 900px;
+}
+.editProfileDiv {
+  width: 900px;
+}
